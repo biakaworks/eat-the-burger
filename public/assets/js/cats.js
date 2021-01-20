@@ -7,6 +7,7 @@ $(function() {
     var newSleepState = {
       sleepy: newSleep
     };
+    console.log(newSleepState);
 
     // Send the PUT request.
     $.ajax("/api/cats/" + id, {

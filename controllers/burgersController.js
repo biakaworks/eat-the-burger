@@ -30,7 +30,7 @@ router.post("/api/cats", function(req, res) {   //update routes later
 
 router.put("/api/cats/:id", function(req, res) {
   var condition = "id = " + req.params.id;
-
+console.log(req.body)
   console.log("condition", condition);
 
   burger.update({
